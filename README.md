@@ -1,2 +1,2 @@
-# data-strucuture
+# Data Strucuture
 2nd sem program
