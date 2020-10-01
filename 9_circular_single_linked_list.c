@@ -56,15 +56,11 @@ case 6:
     printf("\n");system("pause");
     system("cls");
     break;
-
-
 case 7:
     start=display(start);
      printf("\n");system("pause");
      system("cls");
-    break;
-
-    }
+    break;    }
   } while(choice!=8);
 }
 struct node* insert_beg(struct node* start)
@@ -244,8 +240,7 @@ struct node *display(struct node *start)
          {
              printf("\t%d",ptr->info);
              ptr=ptr->next;
-         }
-    }
+         } }
          return start;
 }
 
